@@ -3,6 +3,9 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="stylesheet" href="../../main.css"> 
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;900&display=swap" rel="stylesheet">
+
 <title>NIRCam_PSF_Photometry_Example</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
@@ -14256,7 +14259,14 @@ a.anchor-link {
     </script>
     <!-- End of mathjax configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-
+  <div class="header"> 
+    <a target="_blank" href="https://spacetelescope.github.io/jdat_notebooks/">
+        <img class="small_logo" src="../../images/Jspectra.svg" alt="JWST Data Analysis Notebooks"> 
+    </a>
+    <a href="https://github.com/spacetelescope/jdat_notebooks/tree/master/notebooks/psf_photometry" target="_blank" class="button" style="color: white !important;">
+      Download Notebook
+    </a>
+  </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="JWST-Data-Analysis-Use-Case:-Crowded-Field-PSF-Photometry">JWST Data Analysis Use Case: Crowded Field PSF Photometry<a class="anchor-link" href="#JWST-Data-Analysis-Use-Case:-Crowded-Field-PSF-Photometry">&#182;</a></h1><p><strong>Data</strong>: NIRCam simulated images obtained using MIRAGE (<a href="https://jwst-docs.stsci.edu/jwst-other-tools/mirage-data-simulator">https://jwst-docs.stsci.edu/jwst-other-tools/mirage-data-simulator</a>) and run through the JWST pipeline (<a href="https://jwst-pipeline.readthedocs.io/en/latest/">https://jwst-pipeline.readthedocs.io/en/latest/</a>) of the Large Magellanic Cloud (LMC) Astrometric Calibration Field. For this example, we use Level-2 images (.cal, calibrated but unrectified) for 1 SW NIRCam detector of module B (i.e., "NRCB1") for two wide filters: F115W and F200W.</p>
